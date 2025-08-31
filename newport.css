@@ -1,0 +1,202 @@
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    background-color: bisque;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 5, 118);
+    color: white;
+    height: 70px;
+    align-items: center;
+    font-weight: bold;
+    gap: 50px;
+}
+.A {
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.A {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 45%;
+    transition: transform 0.3s ease; /* Move this here */
+}
+
+.A:hover {
+    transform: scale(1.2);  /* 5.5 is too large — 1.2 or 1.5 is better */
+}
+h6 {
+    font-size: large;
+    display: flex;
+    text-align: center;
+    padding-left: 45%;
+    padding-right: 30%;
+    font-size: larger;
+}
+#about{
+    margin-left: 500px;
+    width: 600px;
+    height: 200px;
+}
+.skills {
+    margin-left: 100px;
+    display: grid;
+    background-color: #1A1669;
+    height: 300px;
+    width: 500px;
+    color: white;
+    border-radius: 40px;
+}
+.language {
+  display: flex;
+  gap: 50px;
+  margin-left: 80px;
+}
+#pythonlogo, img {
+    margin-left: 20px;
+}
+.pythonlogo img,
+.clogo img,
+.javalogo img {
+  border-radius: 50%;
+}
+#pythonheadiing
+{
+    margin-left: 20px;
+}
+#javaheading
+{
+    margin-left: 20px;
+}
+#cheading {
+    margin-left: 35px;
+}
+.pythonlogo :hover {
+     transform: scale(1.2);
+}
+.clogo :hover{
+     transform: scale(1.2);
+}
+.javalogo :hover {
+    transform: scale(1.2);  
+}
+#skillheading {
+    margin-right: 80px;
+    font-size: x-large;
+}
+.skill :hover{
+    transform: scale(1.2);
+}
+.skillkabaap {
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.webtech {
+    display: grid;
+    background-color: #1A1669;
+    height: 300px;
+    width: 500px;
+    color: white;
+    border-radius: 40px;
+}
+#web {
+    margin-right: 140px;
+    font-size: x-large;
+}
+.useweb {
+  display: flex;
+  gap: 50px;
+  margin-left: 80px;
+}
+#cssheading {
+    margin-left: 20px;
+}
+.htmllogo img,
+.csslogo img,
+.jslogo img {
+  border-radius: 50%;
+}
+.htmllogo :hover {
+     transform: scale(1.2);
+}
+.csslogo :hover{
+     transform: scale(1.2);
+}
+.jslogo :hover {
+    transform: scale(1.2);  
+}
+.skillkabaap{
+    height: auto;
+    width: 100%;
+}
+.project1, a {
+     color: white;
+     font-style: bold;
+}
+.project1 {
+      background: linear-gradient(to right, #00008B, #d933c8);
+    height: 100px;
+    width: 700px;
+    margin-left: 450px;
+    margin-top: 60px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project2 {
+      background: linear-gradient(to right, #00008B, #d933c8);
+    height: 100px;
+    width: 700px;
+    margin-left: 450px;
+    margin-top: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project2, a {
+     color: white;
+     font-style: bold;
+}
+.project3 {
+    margin-top: 30px;
+    background-color: #a80303;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact {
+    background-color: rgb(98, 5, 98);
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    border-radius: 40px;
+}
+.down {
+    margin-left: 700px;
+    border-radius: 50%;
+
+}
